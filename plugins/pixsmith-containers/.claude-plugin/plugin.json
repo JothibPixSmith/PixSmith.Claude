@@ -1,0 +1,6 @@
+{
+  "name": "pixsmith-containers",
+  "version": "0.1.0",
+  "description": "Docker / Podman image and compose-stack conventions.",
+  "author": { "name": "JothibPixSmith" }
+}

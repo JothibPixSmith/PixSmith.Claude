@@ -1,0 +1,6 @@
+{
+  "name": "pixsmith-core",
+  "version": "0.3.1",
+  "description": "Stack-agnostic skills: project onboarding, security review, skill authoring.",
+  "author": { "name": "JothibPixSmith" }
+}

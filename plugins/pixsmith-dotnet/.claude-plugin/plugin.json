@@ -1,0 +1,6 @@
+{
+  "name": "pixsmith-dotnet",
+  "version": "0.1.0",
+  "description": ".NET / ASP.NET Core / EF Core conventions, migrations and testing.",
+  "author": { "name": "JothibPixSmith" }
+}
