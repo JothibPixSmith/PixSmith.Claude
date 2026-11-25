@@ -1,6 +1,0 @@
-{
-  "name": "pixsmith-esphome",
-  "version": "0.1.0",
-  "description": "ESPHome device configuration, secrets and flashing.",
-  "author": { "name": "JothibPixSmith" }
-}

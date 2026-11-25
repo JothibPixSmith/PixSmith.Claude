@@ -1,6 +1,8 @@
 {
   "name": "pixsmith",
-  "owner": { "name": "JothibPixSmith" },
+  "owner": {
+    "name": "JothibPixSmith"
+  },
   "metadata": {
     "description": "Shared Claude Code skills for PixSmith projects, general and per stack."
   },
@@ -10,28 +12,35 @@
       "source": "./plugins/pixsmith-core",
       "description": "Stack-agnostic skills: project onboarding, security review, skill authoring.",
       "category": "general",
-      "keywords": ["general", "security", "onboarding"]
+      "keywords": [
+        "general",
+        "security",
+        "onboarding"
+      ]
     },
     {
       "name": "pixsmith-dotnet",
       "source": "./plugins/pixsmith-dotnet",
       "description": ".NET / ASP.NET Core / EF Core conventions, migrations and testing.",
       "category": "stack",
-      "keywords": ["dotnet", "csharp", "aspnetcore", "efcore", "xunit"]
+      "keywords": [
+        "dotnet",
+        "csharp",
+        "aspnetcore",
+        "efcore",
+        "xunit"
+      ]
     },
     {
       "name": "pixsmith-containers",
       "source": "./plugins/pixsmith-containers",
       "description": "Docker / Podman image and compose-stack conventions.",
       "category": "stack",
-      "keywords": ["docker", "podman", "compose"]
-    },
-    {
-      "name": "pixsmith-esphome",
-      "source": "./plugins/pixsmith-esphome",
-      "description": "ESPHome device configuration, secrets and flashing.",
-      "category": "stack",
-      "keywords": ["esphome", "esp32", "iot"]
+      "keywords": [
+        "docker",
+        "podman",
+        "compose"
+      ]
     }
   ]
 }

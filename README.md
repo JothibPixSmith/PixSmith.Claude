@@ -9,7 +9,6 @@ Shared [Claude Code](https://claude.com/claude-code) skills for PixSmith project
 | `pixsmith-core` | every project | `project-onboarding`, `security-review-checklist`, `new-skill`, `always-use-braces`, `always-await` |
 | `pixsmith-dotnet` | .NET / ASP.NET Core / EF Core | `dotnet-architecture`, `ef-core-migrations`, `dotnet-testing` |
 | `pixsmith-containers` | Docker / Podman | `container-stacks` |
-| `pixsmith-esphome` | ESPHome devices | `esphome-device` |
 
 Claude loads a skill on its own when the task matches the skill's description. You can also call one directly, e.g. `/pixsmith-dotnet:ef-core-migrations`.
 

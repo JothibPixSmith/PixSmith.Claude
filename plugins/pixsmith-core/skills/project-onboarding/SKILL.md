@@ -9,14 +9,13 @@ Wire a repository up to the PixSmith marketplace so the right skills load automa
 
 ## 1. Detect the stack
 
-Look at the repo root and one or two levels down (skip `node_modules`, `bin`, `obj`, `.esphome`, `.git`):
+Look at the repo root and one or two levels down (skip `node_modules`, `bin`, `obj`, `.git`):
 
 | Signal | Plugin |
 |---|---|
 | always | `pixsmith-core` |
 | `*.sln`, `*.slnx`, `*.csproj`, `global.json` | `pixsmith-dotnet` |
 | `Dockerfile`, `docker-compose*.yml`, `compose*.yaml`, `Containerfile` | `pixsmith-containers` |
-| YAML containing a top-level `esphome:` key, or a `.esphome/` dir | `pixsmith-esphome` |
 
 If a stack is present that no plugin covers yet, mention it — it may deserve a new plugin in the PixSmith.Claude repo (see the `new-skill` skill).
 
